@@ -56,6 +56,10 @@ packages:
 ```
 
 ## 安装依赖
+### 全局安装
+```js
+pnpm add tsup -D -w
+```
 ### 指定工作区安装
 ```js
 pnpm add axios --filter @mz/api
